@@ -1,0 +1,121 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/* App Specifi Style */
+
+.app-btn {
+  border-radius: 5px;
+  padding: 5px 8px;
+  margin: 1px;
+  font-size: 14px;
+}
+
+.app-btn.red {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+}
+
+.app-btn.blue {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+}
+
+.app-btn.green {
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+}
+
+.app-view-container {
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 1px;
+}
+
+.app-view-container.red {
+  border: 1px solid red;
+  background-color: rgb(255, 0, 0, 0.2);
+}
+
+.app-view-container.blue {
+  border: 1px solid blue;
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+.app-view-container.green {
+  border: 1px solid green;
+  background-color: rgba(0, 128, 0, 0.2);
+}
+
+.app-d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-txt {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2px 3px;
+  width: 100%;
+}
+
+.app-error-msg {
+  color: rgb(255, 0, 0);
+}
+
+.app-red-header {
+  color: rgb(128, 0, 0);
+}
+
+.app-green-header {
+  color: rgb(0, 128, 0);
+}
+
+.app-blue-header {
+  color: rgb(0, 0, 128);
+}
