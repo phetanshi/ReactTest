@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "label": "React JS",
+        "value": "ReactJS"
+    },
+    {
+        "id": 2,
+        "label": "Anguler JS",
+        "value": "AngulerJS"
+    },
+    {
+        "id": 3,
+        "label": "Vue JS",
+        "value": "Vue"
+    },
+    {
+        "id": 4,
+        "label": "Jquery",
+        "value": "Jquery"
+    },
+    {
+        "id": 5,
+        "label": "Javascript",
+        "value": "Javascript"
+    },
+    {
+        "id": 6,
+        "label": "Java",
+        "value": "Java"
+    },
+    {
+        "id": 7,
+        "label": "C sharp",
+        "value": "csharp"
+    },
+    {
+        "id": 8,
+        "label": "Typescript",
+        "value": "Typescript"
+    }
+]
